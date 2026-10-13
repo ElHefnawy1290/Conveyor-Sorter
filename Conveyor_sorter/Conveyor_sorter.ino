@@ -19,8 +19,8 @@ const uint8_t PIN_FB     = A0; // Feedback Pin (Not used in this simulation)
 #define USE_FEEDBACK      0    // We are simulating motor physics, not using a real speed sensor
 
 const int SPEED_RUN_PWM     = 200; // Normal belt speed (0 is stopped, 255 is max speed)
-const int SERVO_DEFAULT_DEG = 0;   // Arm position for cardboard/plastic (let it pass)
-const int SERVO_DIVERT_DEG  = 60;  // Arm position to push metal boxes off the belt
+const int SERVO_DEFAULT_DEG = 90;   // Arm position for cardboard/plastic (let it pass)
+const int SERVO_DIVERT_DEG  = 150;  // Arm position to push metal boxes off the belt
 
 // Time limits (in milliseconds) for different actions
 const unsigned long DEBOUNCE_MS     = 30;   // Wait 30ms to confirm the IR sensor isn't glitching
