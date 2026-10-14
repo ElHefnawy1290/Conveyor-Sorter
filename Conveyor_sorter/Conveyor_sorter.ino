@@ -57,8 +57,8 @@ int motorPWM = 0;
 Servo sorter;
 
 const int SERVO_DEFAULT_US = 1500;
-const int SERVO_METAL_US = 1333;
-const int SERVO_NONMETAL_US = 1667;
+const int SERVO_METAL_US = 1333; //-30
+const int SERVO_NONMETAL_US = 1667; //+30
 
 const unsigned long SERVO_MOVE_MS = 400;
 const unsigned long SENSOR_TO_SERVO_MS = 500;
